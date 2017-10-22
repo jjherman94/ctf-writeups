@@ -1,0 +1,9 @@
+Our team has gotten hands on this text and we know that it has been used by BloodSuckers Corp. as an admittance test for their applicants in the Counter Intelligence(CI) team, since these guys have an eye for pattern recognition! Get this achievement by helping the members of Rebellious Fingers that will soon try to infiltrate the CI team and will need this test's results.
+
+Pay close attention to the text in order to capture the sequence as it appears, understanding these instructions is also part of the challenge. The engine used is python2, everything is working as expected!
+
+P.S: In the challenge, wildcard refers exclusively to the asterisk ( * ).
+
+Server: nc 200.136.213.148 5000
+
+Id: baby_regex
