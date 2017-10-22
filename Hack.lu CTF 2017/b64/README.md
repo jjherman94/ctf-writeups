@@ -80,7 +80,7 @@ You can see that the output `A` maps to the pre-decode string `QQ`. That is our 
 
 At the point where I realised that I already had a code monstrosity for juggling one byte and I really didn't want to do it for 2. Luckily, we can work around that by just reconnecting to the server, and generating a new secret, until we get 4 characters from the very fist response. After that point we can find the remaining 2 characters by just changing a single byte of the input as explained above. Again, we only need 6 output characters, which when encoded back using base64 give us 8, the length of the secret. 
 
-What's left is to write the script that switches bytes and checks the output, until we get back 48 bytes, or 12 hex bytes or 6 characters:
+What's left is to write the script that switches bytes and checks the output, until we get back 48 bits, or 12 hex bytes or 6 characters:
 ```python
 ...
 def play_round(client, hex_payload):
